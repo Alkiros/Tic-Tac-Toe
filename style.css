@@ -1,0 +1,31 @@
+body {
+	background: url("../img/background.png");
+    background-repeat: no-repeat;
+     }
+header {
+	background: url("../img/header.png");
+    background-repeat: no-repeat;
+     }
+.line{
+	height: 122px;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+.cell{
+	width: 120px;
+	height: 120px;
+	border: 1px solid black;
+	border-color:#5C3D00;
+	background-color: #045B1D;
+	background: url("../img/cell.png");
+	float: left;
+	cursor: pointer;
+}
+
+.cell:hover{
+	background: #5C3D00;
+	transition: all 0.5s;
+}
+
